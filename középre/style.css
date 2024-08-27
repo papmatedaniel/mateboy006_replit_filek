@@ -1,0 +1,560 @@
+/* Default styles for the browser */
+#fejléc {
+    background-color: red;
+    width: 1350px;
+    height: 100px;
+}
+
+#h1 {
+    text-align: center;
+    bacground-color: black;
+    color: black;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color: #F55536;
+}
+
+header .container{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+    margin-left: 50px;
+    padding: 20px;
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+/*https://www.youtube.com/watch?v=GxwHXxumdQk*/
+
+#header {
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  line-height: 60px;
+}
+
+#nav {
+  position: absolute;
+  right: 0;
+}
+
+#li1 {
+      float: left;
+      padding: 20px;
+}
+#li2 {
+      float: left;
+      padding: 20px;
+}
+#li3 {
+      float: left;
+      padding: 20px;
+}
+#li4 {
+      float: left;
+      padding: 20px;
+}
+#a1 {
+    margin-right: 50px
+}
+
+
+@media only screen and (max-width: 500px) {
+  #loggo {
+    float: unset;
+    width: 30%;
+    }
+    
+        
+    }
+}
+
+/*
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  main {
+    background-color: lightblue;
+    color: lightblue;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #F2D0A9;
+    color: #F2D0A9;
+}
+
+
+
+
+
+
+
+
+.doboz {
+    /* background-color: #8E7DBE; */
+    background-color: #483a6c;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px 5px purple; */
+    box-shadow: 0px 0px 15px 5px rgb(71, 0, 71);
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px;
+    width: 60%;
+}
+
+#h1cím {
+    font-size: 200%;
+    background-color:#483a6c;
+    color:#F2D0A9;
+    padding-block: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#kapu-kep1 {
+    width: 76%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+#isten-kep2 {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#izanagi {
+    /*float:left;*/
+    min-height: 370px;
+    
+}
+
+
+
+#izanagi-kep3 {
+    display: block;
+    float: right;
+    max-height: 200px;
+    width: auto;
+    margin-block: -30px;
+    margin-inline: 10px;
+}
+
+#szeibo {
+    height: 400px;
+}
+
+#szeibo-kep4 {
+    float: right;
+    width: 25%;
+    height: auto;
+    display: unset;
+    margin: auto;
+    margin-block: -30px;
+    margin-inline: 10px;
+    margin-left: 20%;
+}
+
+
+
+#szentely-kep5 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+#maszkok-kep6 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#szamuraj-kep7 {
+    max-height: 370px;
+}
+
+#szamuraj-kep8 {
+    float: right;
+    max-height: 370px;
+}
+
+@media only screen and (max-width: 900px) {
+  #szamuraj-kep8 {
+    float: unset;
+    width: 50%;
+    }
+    #szamuraj img {
+        display: block;
+        margin: 15px auto;
+        width: 50%;
+        
+    }
+}
+
+
+#kendo {
+    text-align: center;
+}
+
+#kendomaszk-kep {
+  width: 70%;
+  height: auto;
+
+    
+}
+
+
+
+#oni-kep9 {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin-left: 50px;
+  
+}
+#karddd{
+    color: black;
+}
+
+#kardok-kep10 {
+  width: 90%;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50;
+  display: block;
+  margin: auto;
+}
+
+#sarkanyisten {
+    text-align:center
+}
+
+#sarkanyisten-kep11 {
+    text-align: center;  
+    float: unset;
+    max-width: 40%;
+    height: 40%
+}
+
+#szellemek {
+    text-align:center
+}
+
+#szellemek-kep12 {
+    text-align: center;
+  width: 40%;
+  height: auto;
+  margin-left: 50px;
+}
+
+#hanako {
+    text-align: center
+}
+
+#hanako-kep13 {
+    max-height: 430px;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+}
+
+#hanako-kep14 {
+    max-height: 430px;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+}
+
+
+
+#teke-kep15 {
+    max-height: 430px;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+    
+}
+
+#teke-kep16 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+  #teke-kep16 {
+    float: unset;
+    width: 40%;
+    }
+    #teke-teke img {
+        display: block;
+        margin: 15px auto;
+        width: 40%;
+        
+    }
+}
+
+
+#msz {
+    text-align:center;
+    border-radius: 10px;
+    background-color: #D88C9A;
+}
+
+
+#kitsuni-kep17 {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#kitsuni-kep18 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  #kitsuni-kep18 {
+    float: unset;
+    width: 40%;
+    }
+    #kitsuni img {
+        display: block;
+        margin: 15px auto;
+        width: 40%;
+        
+    }
+}
+
+
+#kappa-kep19 {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#kappa-kep20 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  #kappa-kep20 {
+    float: unset;
+    width: 40%;
+    }
+    #kappa img {
+        display: block;
+        margin: 15px auto;
+        width: 40%;
+        
+    }
+}
+
+
+
+#tanuki-kep21 {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#tanuki-kep22 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  #tanuki-kep22 {
+    float: unset;
+    width: 40%;
+    }
+    #tanuki img {
+        display: block;
+        margin: 15px auto;
+        width: 40%;
+        
+    }
+}

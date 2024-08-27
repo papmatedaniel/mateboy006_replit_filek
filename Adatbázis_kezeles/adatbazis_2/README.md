@@ -1,0 +1,1 @@
+<h1>2023 Feb 2. Magyarul tudó ai készítés volt a cél, dc-n kezdem el együtműködni egy programozóval</h1>
